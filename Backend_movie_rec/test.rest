@@ -1,0 +1,23 @@
+POST http://127.0.0.1:8000/login/
+Content-Type: application/json
+
+{"username":"A","password":"p"}
+
+###
+
+POST http://127.0.0.1:8000/signup/
+Content-Type: application/json
+
+{"username":"A","password":"p","email":"abhi@gmail.com"}
+
+###
+
+POST http://127.0.0.1:8000/search/
+Content-Type: application/json
+Authorization: Token 5b058538e0ab52f88c4fd21111d66b9222c82a07
+
+
+{"movie":"Batman"}
+
+###
+
